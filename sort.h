@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <unistd.h>
-
+#include <string.h>
 /**
  * struct listint_s - Doubly linked list node
  *
