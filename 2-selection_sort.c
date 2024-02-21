@@ -1,6 +1,10 @@
 #include "sort.h"
 
-
+/**
+ * printArray - prints elements of an array
+ * @array: array to print
+ * @size: size of the array
+ */
 
 void printArray(int *array, size_t size)
 {
@@ -13,7 +17,11 @@ void printArray(int *array, size_t size)
     printf("\n");
 }
 
-
+/**
+ * selection_sort - sorts the ints
+ * @array: array to sort
+ * @size: size of the array
+ */
 
 void selection_sort(int *array, size_t size)
 {
